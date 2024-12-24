@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./resources/styles/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./resources/styles/main.css" />
     <title>Student Repos</title>
-
-</head>
-<body id="grad">
+  </head>
+  <body id="grad">
     <div>
-        <ul>
-            <li><a href="./Main.html">Main</a></li>
-            <li><a href="./CV.html">CV</a></li>
-            <li class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Repositories</button>
-                <div id="myDropdown" class="dropdown-content">
-                  <a href="./StudentRepo.html">Student</a>
-                  <a href="./PersonalRepo.html">Personal</a>
-                </div>
-              </li>
-
-        </ul>
+      <ul>
+        <li><a href="./Main.html">Main</a></li>
+        <li><a href="./CV.html">CV</a></li>
+        <li><a href="./Log.html">Log</a></li>
+        <li class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Repositories</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="./StudentRepo.html">Student</a>
+            <a href="./PersonalRepo.html">Personal</a>
+          </div>
+        </li>
+      </ul>
     </div>
 
     <div>
-        <h3>GitHub Repositories for hrwalls-crimson</h3>
-        <table id="userRepos"></table>
+      <h3>GitHub Repositories for hrwalls-crimson</h3>
+      <table id="userRepos"></table>
     </div>
 
     <script src="./resources/scripts/studentrepo.js"></script>
-</body>
+  </body>
 </html>

@@ -1,3 +1,13 @@
+#myclass ul {
+    font-size: 1.5vw;
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
 #grad {
     background-image: linear-gradient(to bottom right, rgb(0, 0, 102), rgb(102, 0, 102));
     background-repeat: no-repeat;
@@ -96,7 +106,7 @@ li a:hover, .dropbtn:hover {
 }
 
 h1 {
-    color: white;
+    color:antiquewhite;
 }
 
 h3 {
@@ -105,16 +115,14 @@ h3 {
 }
 
 #Paragraph1 {
-    position: absolute; /* Allows precise positioning */
-    top: 10vw; /* Moves the div down by 10% of the viewport height */
-    left: 9vw; /* Moves the div from the left by 20% of the viewport width */
-    height: auto; /* Allow dynamic height */
-    width: auto; /* Set the width */
-    max-width: 800px; /* Optional: Set a max width */
-    min-width: 300px; /* Optional: Set a min width */
+    position: absolute;
+    top: 10vw;
+    left: 5vw;
+    height: auto;
+    width: auto;
     background-image: linear-gradient(to bottom right, rgb(102, 0, 102), rgb(0, 0, 102));
     color: #FFFFFF; /* Text color */
-    background-clip: content-box; /* Apply background only to content area */
+    background-clip: content-box;
     font-family: Arial, Helvetica, sans-serif;
     border: 3px solid blue;
 }
@@ -165,4 +173,10 @@ th {
     text-align: left;
     color: #FFFFFF;
     padding-left: 10vw;
+    width:60vw;
+    font-size:larger;
+}
+
+#subtitle {
+    color:antiquewhite;
 }
