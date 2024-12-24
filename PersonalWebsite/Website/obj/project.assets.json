@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hayden\\Desktop\\PersonalWebsite\\Website\\Website.csproj",
+      "projectUniqueName": "C:\\Users\\Hayden\\Desktop\\PersonWebsiteWorkSpace\\PersonalWebsite\\PersonalWebsite\\Website\\Website.csproj",
       "projectName": "Website",
-      "projectPath": "C:\\Users\\Hayden\\Desktop\\PersonalWebsite\\Website\\Website.csproj",
+      "projectPath": "C:\\Users\\Hayden\\Desktop\\PersonWebsiteWorkSpace\\PersonalWebsite\\PersonalWebsite\\Website\\Website.csproj",
       "packagesPath": "C:\\Users\\Hayden\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hayden\\Desktop\\PersonalWebsite\\Website\\obj\\",
+      "outputPath": "C:\\Users\\Hayden\\Desktop\\PersonWebsiteWorkSpace\\PersonalWebsite\\PersonalWebsite\\Website\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hayden\\AppData\\Roaming\\NuGet\\NuGet.Config"
