@@ -1,0 +1,168 @@
+#grad {
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 102), rgb(102, 0, 102));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    font-size: 1.5vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: #c804f90e;
+    color: #FFFFFF;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex; /* Use flexbox for proper alignment */
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center; /* Vertically center items */
+}
+
+li, .dropdown {
+    float: none; /* Remove float */
+    margin: 0; /* Reset any margin */
+    
+}
+
+li a, .dropbtn {
+    display: inline-block; /* Ensure consistent behavior */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: transparent; /* Match menu background */
+    border: none; /* Remove default button border */
+}
+
+li a:hover, .dropbtn:hover {
+    background-color: #111;
+}
+
+/* Dropdown Button Specific */
+.dropbtn {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+    overflow: visible;
+    background-color: #33333300;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex; /* Use flexbox for proper alignment */
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center; /* Vertically center items */
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    padding-right: 2px;
+    position: relative;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #11111167;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #015e8043;
+}
+
+/* Show the dropdown menu */
+.show {
+    display: block;
+}
+
+h1 {
+    color: white;
+}
+
+h3 {
+    color: white;
+    font-size: xx-large;
+}
+
+#Paragraph1 {
+    position: absolute; /* Allows precise positioning */
+    top: 10vw; /* Moves the div down by 10% of the viewport height */
+    left: 9vw; /* Moves the div from the left by 20% of the viewport width */
+    height: auto; /* Allow dynamic height */
+    width: auto; /* Set the width */
+    max-width: 800px; /* Optional: Set a max width */
+    min-width: 300px; /* Optional: Set a min width */
+    background-image: linear-gradient(to bottom right, rgb(102, 0, 102), rgb(0, 0, 102));
+    color: #FFFFFF; /* Text color */
+    background-clip: content-box; /* Apply background only to content area */
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid blue;
+}
+
+.container {
+    padding: 30px 40px 40px;
+    max-width: 700px;
+}
+
+.container__image {
+    width: 250px;
+    margin: 30px 30px 30px 0;
+    float: left;
+}
+
+.container__text {
+    display: inline;
+    font-size: x-large;
+}
+
+#CVTITLE {
+    text-align: center;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    padding-left: 10%;
+    width: 80%;
+    background-color: #f4f4f4;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    background-color: #f4f4f4;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+#CVDIV {
+    text-align: left;
+    color: #FFFFFF;
+    padding-left: 10vw;
+}
