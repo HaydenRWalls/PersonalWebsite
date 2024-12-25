@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="./resources/styles/main.css" />
     <title>Wallsacademy</title>
   </head>
-  <body id="grad">
-    <div>
+  <body>
+    <div id="grad">
       <ul>
         <li><a href="./Main.html">Main</a></li>
         <li><a href="./CV.html">CV</a></li>
@@ -43,7 +43,61 @@
         </div>
       </div>
     </div>
-
-    <script src="./resources/scripts/Main.js"></script>
+    <div id="FormDiv">
+      <p>Feel free to send me a direct message!</p>
+    </div>
+    <form>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your first name.."
+          />
+        </div>
+        <div class="form-group">
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your email.." />
+      </div>
+      <div class="form-group">
+        <label for="subject">Message Subject</label>
+        <input
+          type="text"
+          id="subject"
+          name="subject"
+          placeholder="Your inquiry.."
+        />
+      </div>
+      <input type="submit" value="Submit" id="submission">
+    </form>
+    <div id="LinkDiv">
+      <p>Or contact me through one of my links!</p>
+      <li>
+        <a href="https://www.linkedin.com/in/hayden-walls/" target="_blank"
+          >LinkedIn</a
+        >
+      </li>
+      <li>
+        <a href="https://github.com/HaydenRWalls" target="_blank">GitHub</a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/HaydenRwalls" target="_blank"
+          >Facebook</a
+        >
+      </li>
+      <script src="./resources/scripts/Main.js"></script>
+    </div>
   </body>
 </html>
